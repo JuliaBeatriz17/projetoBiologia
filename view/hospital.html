@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="../controller/style.css">
+</head>
+
+<body>
+    <header class="headerHome">
+        <h1>Mapeamento Hospital</h1>
+        <nav>
+            <a href="../index.html" id="home">
+                <p>Informações Gerais</p>
+            </a>
+            <a href="./clima.html">
+                <p>Qualidade Climática</p>
+            </a>
+        </nav>
+        <div>
+            <select name="typeCity" id="typeCity" aria-placeholder="Sua cidade">
+                <option value="cidade"></option>
+                <option value="NF">Nova Friburgo</option>
+                <option value="BJ">Bom Jardim</option>
+            </select>
+            <button class="search" id="search">🔍</button>
+        </div>
+    </header>
+    <thead>
+    <tbody>
+        <ul><a href="../index.html"></a></ul>
+    </tbody>
+    <main>
+        <h2 class="place"></h2>
+        <div class="box-clima">
+            <div class="info-clima">
+                <h3 class="Saúde">Hospitais mais próximos</h3>
+                <ul class="mapeamentoHospi"></ul>             
+            </div>
+        </div>
+    </main>
+    </thead>
+    <script src="scriptHospital.js" type="module"></script>
+</body>
+
+</html>

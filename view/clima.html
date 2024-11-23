@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="../controller/style.css">
+</head>
+
+<body>
+    <header class="headerHome">
+        <h1>Clima</h1>
+        <nav>
+            <a href="../index.html" id="home">
+                <p>Informações Gerais</p>
+            </a>
+            <a href="./hospital.html">Mapeamento Hospital</a>
+        </nav>
+        <div>
+            <select name="typeCity" id="typeCity" aria-placeholder="Sua cidade">
+                <option value="cidade"></option>
+                <option value="NF">Nova Friburgo</option>
+                <option value="BJ">Bom Jardim</option>
+            </select>
+            <button class="search" id="search">🔍</button>
+        </div>
+    </header>
+    <thead>
+    <tbody>
+        <ul><a href="../index.html"></a></ul>
+    </tbody>
+    <main>
+        <h2 class="place"></h2>
+        <div class="box-clima">
+            <div class="clima">
+                <h2>Condições atuais </h2>
+                <h3 class="qualityAirText"></h3>
+                <h4>Universal AQI</h4>
+                <div class="gauge-container">
+                    <div class="gauge"></div>
+                    <div class="needle"></div>
+                    <div class="value"></div>
+                </div>
+                <p>Poluente Dominante - <span class="poluenteDominanteTexo"></span></p>
+              
+            </div>
+            <div class="info-clima">
+                <h3 class="Saúde">Recomendações de Saúde</h3>
+                <ul class="list-info">
+                </ul>
+            </div>
+        </div>
+    </main>
+    </thead>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
